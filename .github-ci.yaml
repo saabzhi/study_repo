@@ -1,0 +1,14 @@
+helloworld:
+  script:
+    - echo "Hello World , first CI/CD demo."
+
+run_unit_tests:
+  script:
+    - echo "执行unit测试"
+
+before-script:
+  - echo "安装软件"
+  - echo "配置连接"
+
+after-script:
+  - echo "删除不必要配置"
